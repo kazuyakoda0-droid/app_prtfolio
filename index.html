@@ -3,78 +3,110 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#111412">
-  <meta name="description" content="しおどき、釣りマップ 3D、家計のみらい図、サッと黒板、NEST Acousticなど、制作したアプリやWebサイトを紹介します。">
-  <title>Portfolio — アプリ・Webサイト・制作ツール</title>
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23111412'/%3E%3Cpath d='M16 44V20h13c8 0 13 4 13 12s-5 12-13 12H16zm9-7h4c4 0 6-2 6-5s-2-5-6-5h-4v10z' fill='%23d7fb62'/%3E%3C/svg%3E">
+  <meta name="theme-color" content="#dce9ef">
+  <meta name="description" content="海、暮らし、現場、研究、トレード。制作したアプリ、Webサイト、ツールを紹介するポートフォリオです。">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="PORTFOLIO — Apps, Web & Tools">
+  <meta property="og:description" content="海、暮らし、現場、研究、トレード。制作したものを紹介します。">
+  <meta property="og:image" content="https://kazuyakoda0-droid.github.io/app_prtfolio/images/hero-seascape.webp">
+  <title>PORTFOLIO — Apps, Web & Tools</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231b313b'/%3E%3Cpath d='M19 46V18h14c8 0 13 5 13 13s-5 13-13 13H27v-8h6c3 0 5-2 5-5s-2-5-5-5h-6v20z' fill='%23dce9ef'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-  <header class="site-header">
-    <a class="brand" href="#top" aria-label="Portfolio トップへ">PORTFOLIO<span class="brand-dot">.</span></a>
-    <nav class="nav" aria-label="メインナビゲーション">
-      <a href="#work">Works</a>
-      <a href="#about">About</a>
-    </nav>
-  </header>
-
+  <a class="skip-link" href="#work">作品一覧へ移動</a>
   <main id="top">
     <section class="hero" aria-labelledby="hero-title">
-      <div class="hero-topline"><span>APPS / WEB / TOOLS</span><span>PORTFOLIO / 2026</span></div>
-      <div class="hero-main">
-        <p class="eyebrow">SELECTED WORKS</p>
-        <h1 id="hero-title">つくったものを<br><em>ひとつずつ。</em></h1>
-        <p class="hero-description">海、暮らし、現場、研究、トレード。<br>さまざまなテーマで制作したアプリとWebサイトを紹介します。</p>
-        <a class="hero-link" href="#work">作品を見る <span aria-hidden="true">↘</span></a>
+      <div class="hero-image" aria-hidden="true"></div>
+      <div class="hero-shade" aria-hidden="true"></div>
+      <header class="hero-header">
+        <a class="wordmark" href="#top" aria-label="ポートフォリオ トップへ">PORTFOLIO<span class="wordmark-dot">.</span></a>
+        <span class="header-note">INDEPENDENT CREATION<br>JAPAN · 2026</span>
+      </header>
+      <div class="hero-content">
+        <p class="hero-eyebrow">APPS / WEB / TOOLS / IDEAS</p>
+        <h1 id="hero-title">PORT<span>FOLIO</span><span class="hero-period">.</span></h1>
+        <div class="hero-subline">
+          <p>つくる、その先へ。</p>
+          <p>海から暮らし、現場、研究まで。<br>使う人のことを考え、形にしてきたもの。</p>
+        </div>
       </div>
-      <div class="hero-bottomline"><span>08 PROJECTS / 60+ EAs</span><span aria-hidden="true">↓</span></div>
+      <nav class="hero-nav" aria-label="ページ内ナビゲーション">
+        <span class="hero-nav-label">EXPLORE</span>
+        <a href="#work"><span>01</span> WORKS <span aria-hidden="true">↗</span></a>
+        <a href="#about"><span>02</span> ABOUT <span aria-hidden="true">↗</span></a>
+        <a href="https://github.com/kazuyakoda0-droid/app_prtfolio" target="_blank" rel="noopener noreferrer"><span>03</span> GITHUB <span aria-hidden="true">↗</span></a>
+      </nav>
+      <div class="hero-footer"><span>08 SELECTED WORKS / 60+ TRADING EAs</span><a href="#work">SCROLL TO DISCOVER <span aria-hidden="true">↓</span></a></div>
     </section>
 
-    <section class="work-section section-pad" id="work" aria-labelledby="work-title">
-      <div class="section-heading"><div><p class="eyebrow">01 / SELECTED WORK</p><h2 id="work-title">制作したもの<span class="accent">.</span></h2></div><p>アプリ、Webサイト、制作ツール、取引支援</p></div>
-      <div class="work-grid">
-        <article class="project-card project-card-featured">
-          <div class="project-visual media-tide"><span class="visual-index">01 / WEB</span><img src="./images/shiodoki.png" alt="しおどきの波を描いたアイコン" width="512" height="512"><span class="media-wordmark">SHIODOKI</span></div>
-          <div class="project-info"><div><p class="project-type">TIDE DATA / WEB SITE</p><h3>しおどき</h3><p>気象庁の公式推算値をもとに、全国の潮見表とタイドグラフを提供。地点検索、10分刻みの潮位、潮が動く時間帯をひとつのサイトにまとめました。</p></div><a class="project-link" href="https://japantide.com/" target="_blank" rel="noopener noreferrer" aria-label="しおどきのサイトを開く">サイトを見る ↗</a></div>
+    <section class="work-section" id="work" aria-labelledby="work-title">
+      <div class="section-intro">
+        <p class="section-index">01 / WORKS</p>
+        <h2 id="work-title">Selected<br><em>Works.</em></h2>
+        <p>分野も形も異なる８つの制作物。<br>それぞれの課題に向き合い、使えるものへ仕上げました。</p>
+      </div>
+      <div class="work-list">
+        <article class="work-item">
+          <span class="work-number">01 / 08</span>
+          <div class="work-art work-art-tide"><img src="./images/shiodoki.png" alt="しおどきの波を描いたアイコン" width="512" height="512" loading="lazy"></div>
+          <div class="work-copy"><p class="work-type">WEB SITE / TIDE DATA</p><h3>しおどき</h3><p>気象庁の公式推算値をもとに、全国の潮見表とタイドグラフを提供。地点検索、10分刻みの潮位、潮が動く時間帯をひとつにまとめました。</p></div>
+          <a class="work-action" href="https://japantide.com/" target="_blank" rel="noopener noreferrer" aria-label="しおどきのサイトを開く">VISIT <span aria-hidden="true">↗</span></a>
         </article>
-        <article class="project-card">
-          <div class="project-visual media-fishing"><span class="visual-index">02 / MAP</span><span class="type-art">COAST<br><strong>3D</strong></span><span class="media-corner">DEPTH · TIDE · WEATHER</span></div>
-          <div class="project-info"><div><p class="project-type">FISHING / 3D MAP</p><h3>釣りマップ 3D</h3><p>日本の沿岸を3Dで見ながら、推定等深線、潮汐、天気、周辺施設などを重ねて確認できる釣り人向け地図。</p></div></div>
+        <article class="work-item">
+          <span class="work-number">02 / 08</span>
+          <div class="work-art work-art-map" role="img" aria-label="海岸線と等深線をイメージしたグラフィック"><span>COAST<br><b>3D</b></span></div>
+          <div class="work-copy"><p class="work-type">FISHING / 3D MAP</p><h3>釣りマップ 3D</h3><p>日本の沿岸を3Dで見ながら、推定等深線、潮汐、天気、周辺施設などを重ねて確認できる釣り人向け地図。</p></div>
+          <span class="work-action work-action-muted">OVERVIEW <span aria-hidden="true">—</span></span>
         </article>
-        <article class="project-card">
-          <div class="project-visual media-kakeibo"><span class="visual-index">03 / APP</span><img src="./images/kakeibo.webp" alt="家計のみらい図の家族向けイラスト" width="960" height="720"></div>
-          <div class="project-info"><div><p class="project-type">HOUSEHOLD / WEB APP</p><h3>家計のみらい図</h3><p>家族の家計を記録・共有し、年間の収支や将来の計画を考えるためのWebアプリ。日々の記録とライフプランをつなぎます。</p></div><a class="project-link" href="https://kakeibo-2r7j.onrender.com/" target="_blank" rel="noopener noreferrer" aria-label="家計のみらい図のサイトを開く">サイトを見る ↗</a></div>
+        <article class="work-item">
+          <span class="work-number">03 / 08</span>
+          <div class="work-art work-art-kakeibo"><img src="./images/kakeibo.webp" alt="家計のみらい図の家族向けイラスト" width="960" height="720" loading="lazy"></div>
+          <div class="work-copy"><p class="work-type">HOUSEHOLD / WEB APP</p><h3>家計のみらい図</h3><p>家族の家計を記録・共有し、年間の収支や将来の計画を考えるためのWebアプリ。日々の記録とライフプランをつなぎます。</p></div>
+          <a class="work-action" href="https://kakeibo-2r7j.onrender.com/" target="_blank" rel="noopener noreferrer" aria-label="家計のみらい図のサイトを開く">VISIT <span aria-hidden="true">↗</span></a>
         </article>
-        <article class="project-card">
-          <div class="project-visual media-kokuban"><span class="visual-index">04 / MOBILE</span><img src="./images/kokuban.png" alt="サッと黒板の紹介画像" width="1024" height="500"></div>
-          <div class="project-info"><div><p class="project-type">CONSTRUCTION / MOBILE APP</p><h3>サッと黒板</h3><p>工事写真の黒板を自由に作り、撮影時に写真へ写し込むカメラアプリ。現場での入力とオフライン利用を考えて設計しました。</p></div><a class="project-link" href="https://kazuyakoda0-droid.github.io/kokuban-site/" target="_blank" rel="noopener noreferrer" aria-label="サッと黒板のサイトを開く">サイトを見る ↗</a></div>
+        <article class="work-item">
+          <span class="work-number">04 / 08</span>
+          <div class="work-art work-art-kokuban"><img src="./images/kokuban.png" alt="サッと黒板の紹介画像" width="1024" height="500" loading="lazy"></div>
+          <div class="work-copy"><p class="work-type">CONSTRUCTION / MOBILE APP</p><h3>サッと黒板</h3><p>工事写真の黒板を自由に作り、撮影時に写真へ写し込むカメラアプリ。現場での入力とオフライン利用を考えて設計しました。</p></div>
+          <a class="work-action" href="https://kazuyakoda0-droid.github.io/kokuban-site/" target="_blank" rel="noopener noreferrer" aria-label="サッと黒板のサイトを開く">VISIT <span aria-hidden="true">↗</span></a>
         </article>
-        <article class="project-card">
-          <div class="project-visual media-bird"><span class="visual-index">05 / AUDIO</span><img src="./images/nest-acoustic.png" alt="NEST Acousticの鳥類音声解析イメージ" width="1536" height="1024"></div>
-          <div class="project-info"><div><p class="project-type">WILDLIFE / WEB APP</p><h3>NEST Acoustic</h3><p>長時間録音から鳥の鳴き声を抽出し、夜間の検出と候補種を確認する音声解析アプリ。</p></div><a class="project-link" href="https://nest-acoustic.kazuya-kei.chatgpt.site/" target="_blank" rel="noopener noreferrer" aria-label="NEST Acousticのサイトを開く">サイトを見る ↗</a></div>
+        <article class="work-item">
+          <span class="work-number">05 / 08</span>
+          <div class="work-art work-art-bird"><img src="./images/nest-acoustic.png" alt="NEST Acousticの鳥類音声解析イメージ" width="1536" height="1024" loading="lazy"></div>
+          <div class="work-copy"><p class="work-type">WILDLIFE / AUDIO ANALYSIS</p><h3>NEST Acoustic</h3><p>長時間録音から鳥の鳴き声を抽出し、夜間の検出と候補種を確認する音声解析アプリ。</p></div>
+          <a class="work-action" href="https://nest-acoustic.kazuya-kei.chatgpt.site/" target="_blank" rel="noopener noreferrer" aria-label="NEST Acousticのサイトを開く">VISIT <span aria-hidden="true">↗</span></a>
         </article>
-        <article class="project-card">
-          <div class="project-visual media-slides"><span class="visual-index">06 / TOOL</span><img src="./images/slides.png" alt="スライド制作ワークフローの資料表紙" width="1672" height="941"></div>
-          <div class="project-info"><div><p class="project-type">PRESENTATION / WORKFLOW</p><h3>AIスライド制作ワークフロー</h3><p>素材から原稿と画像をつくり、編集できるHTMLやPPTXへ仕上げる制作手順とツール。途中で内容と絵柄を確かめながら進められます。</p></div></div>
+        <article class="work-item">
+          <span class="work-number">06 / 08</span>
+          <div class="work-art work-art-slides"><img src="./images/slides.png" alt="スライド制作ワークフローの資料表紙" width="1672" height="941" loading="lazy"></div>
+          <div class="work-copy"><p class="work-type">PRESENTATION / WORKFLOW</p><h3>AIスライド制作ワークフロー</h3><p>素材から原稿と画像をつくり、編集できるHTMLやPPTXへ仕上げる制作手順とツール。途中で内容と絵柄を確かめながら進められます。</p></div>
+          <span class="work-action work-action-muted">OVERVIEW <span aria-hidden="true">—</span></span>
         </article>
-        <article class="project-card">
-          <div class="project-visual media-ob"><span class="visual-index">07 / TRADING</span><span class="type-art">BOS<br><strong>SUP / DEM</strong></span><span class="media-corner">SETUP MONITOR</span></div>
-          <div class="project-info"><div><p class="project-type">MARKET DATA / MONITORING</p><h3>セットアップ監視ツール</h3><p>確定足を取り込み、BOS・SUP・DEMのセットアップを検知・記録・通知。複数の銘柄と時間足を一覧できる取引支援ツールです。</p></div></div>
+        <article class="work-item">
+          <span class="work-number">07 / 08</span>
+          <div class="work-art work-art-ob" role="img" aria-label="市場データのグリッドをイメージしたグラフィック"><span>BOS<br><b>SUP / DEM</b></span></div>
+          <div class="work-copy"><p class="work-type">MARKET DATA / MONITORING</p><h3>セットアップ監視ツール</h3><p>確定足を取り込み、BOS・SUP・DEMのセットアップを検知・記録・通知。複数の銘柄と時間足を一覧できる取引支援ツールです。</p></div>
+          <span class="work-action work-action-muted">OVERVIEW <span aria-hidden="true">—</span></span>
         </article>
-        <article class="project-card">
-          <div class="project-visual media-ea"><span class="visual-index">08 / EA</span><span class="type-art">IDEAL BB<br><strong>WITH MA</strong></span><span class="media-corner">RESEARCH · BACKTEST · MQL4</span></div>
-          <div class="project-info"><div><p class="project-type">ALGORITHMIC TRADING / EA</p><h3>Ideal BB with MA</h3><p>売買シグナルの再現、通貨ペア・時間足ごとの検証、MQL4でのEA実装まで取り組んだ研究・開発プロジェクト。</p></div></div>
+        <article class="work-item">
+          <span class="work-number">08 / 08</span>
+          <div class="work-art work-art-ea" role="img" aria-label="移動平均とバンドをイメージしたグラフィック"><span>IDEAL BB<br><b>WITH MA</b></span></div>
+          <div class="work-copy"><p class="work-type">ALGORITHMIC TRADING / EA</p><h3>Ideal BB with MA</h3><p>売買シグナルの再現、通貨ペア・時間足ごとの検証、MQL4でのEA実装まで取り組んだ研究・開発プロジェクト。</p></div>
+          <span class="work-action work-action-muted">OVERVIEW <span aria-hidden="true">—</span></span>
         </article>
       </div>
-      <p class="ea-note"><strong>60+</strong><span>このほかにも、さまざまな条件や戦略のEAを60種類以上制作しています。</span></p>
+      <div class="more-work"><strong>60<span>+</span></strong><p>このほかにも、さまざまな条件や戦略のEAを<br>60種類以上制作しています。</p><span>EXPLORATION CONTINUES ↗</span></div>
     </section>
 
-    <section class="about-section section-pad" id="about" aria-labelledby="about-title">
-      <p class="eyebrow">02 / ABOUT</p>
-      <div class="about-layout"><h2 id="about-title">テーマを越えて、<br><span>形にする。</span></h2><div class="about-copy"><p>生活に役立つWebサービス、現場で使うアプリ、音声や地理データの解析、取引を支えるツールまで。目的に合わせて情報を整理し、実際に使える形へ落とし込んでいます。</p></div></div>
+    <section class="about-section" id="about" aria-labelledby="about-title">
+      <div class="about-head"><span>02 / ABOUT</span><a href="#top">BACK TO TOP ↑</a></div>
+      <div class="about-main"><h2 id="about-title">Curiosity<br><em>into form.</em></h2><div><p>テーマを越えて、形にする。</p><p>生活に役立つWebサービス、現場で使うアプリ、音声や地理データの解析、取引を支えるツールまで。目的に合わせて情報を整理し、実際に使える形へ落とし込んでいます。</p></div></div>
+      <footer class="site-footer"><span>PORTFOLIO © 2026</span><a href="https://github.com/kazuyakoda0-droid/app_prtfolio" target="_blank" rel="noopener noreferrer">GITHUB ↗</a></footer>
     </section>
   </main>
-
-  <footer class="site-footer"><a class="brand" href="#top">PORTFOLIO<span class="brand-dot">.</span></a><span>© 2026 PORTFOLIO</span><a href="#top">BACK TO TOP ↑</a></footer>
 </body>
 </html>
