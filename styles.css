@@ -86,10 +86,9 @@ a:focus-visible{outline:2px solid #144b65;outline-offset:5px}
 .work-art-kokuban{background:#fff}.work-art-kokuban img{object-fit:contain}
 .work-art-bird{background:#142729}
 .work-art-slides{background:#f3f1fa}
-.work-art-map{background:linear-gradient(140deg,#244e62,#6babb2);color:#e6f8f4}
-.work-art-map:before{content:"";position:absolute;inset:0;background:repeating-radial-gradient(ellipse at 90% 130%,transparent 0 14px,#d4f4ef77 15px 16px,transparent 17px 30px)}
-.work-art-map span,.work-art-ob span,.work-art-ea span{position:relative;z-index:1;font-size:29px;font-weight:700;letter-spacing:-.08em;line-height:.82;text-align:center}
-.work-art-map b,.work-art-ob b,.work-art-ea b{font-size:1.4em}
+.work-art-map{background:#0b1e33}
+.work-art-ob span,.work-art-ea span{position:relative;z-index:1;font-size:29px;font-weight:700;letter-spacing:-.08em;line-height:.82;text-align:center}
+.work-art-ob b,.work-art-ea b{font-size:1.4em}
 .work-art-ob{background:#1a3033;color:#d2e4de}
 .work-art-ob:before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(0deg,transparent 0 20px,#c7e9df25 21px 22px),repeating-linear-gradient(90deg,transparent 0 30px,#c7e9df1e 31px 32px)}
 .work-art-ob b{font-size:1.55em;letter-spacing:-.05em}
@@ -160,7 +159,7 @@ a:focus-visible{outline:2px solid #144b65;outline-offset:5px}
   .hero-nav{margin-top:38px}
   .hero-footer{letter-spacing:.06em}
   .work-item{grid-template-columns:34px 88px minmax(0,1fr);gap:10px}
-  .work-art-map span,.work-art-ob span{font-size:20px}.work-art-ea span{font-size:15px}
+  .work-art-ob span{font-size:20px}.work-art-ea span{font-size:15px}
   .work-copy h3{font-size:17px}
   .work-type{font-size:8px;letter-spacing:.06em}
   .work-action{margin-top:-7px}
